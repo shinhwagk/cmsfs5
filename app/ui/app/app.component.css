@@ -1,0 +1,38 @@
+.groupbar {
+  -webkit-app-region: drag;
+  background-color: black;
+  width: 60px;
+  height: 650px;
+  float:left;
+}
+
+.groupbarlist {
+  -webkit-app-region: no-drag;
+  list-style-type: none; 
+  padding:0 ; 
+  margin-top:60px;
+}
+
+.groupbartext {
+  color:#eee; 
+  text-align:center;
+}
+
+.groupbartext:hover {
+  background-color: #EEE;
+  cursor: pointer;
+}
+
+.serverbar {
+  background-color: WhiteSmoke;
+  width: 250px;
+  height: 650px;
+  /* box-sizing:border-box; */
+  float:left;
+}
+
+.contentbar {
+  background-color: white;
+  width: 860px; 
+  height: 650px; 
+}

@@ -1,0 +1,13 @@
+<div class="groupbar">
+  <ul class="groupbarlist">
+    <li *ngFor="let name of group" class="groupbartext">
+      <p (click)="setCurrentServer(name)" [style.color]="currentServer === name ? '#ffffff' : '#607d8b'">{{name}}</p>
+    </li>
+  </ul>
+</div>
+<div class="serverbar">
+  sdsds
+</div>
+<div class="contentbar">
+  <div style="float:right" (click)="closeWindow()">X</div>
+</div>
